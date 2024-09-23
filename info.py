@@ -83,7 +83,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/SihagBots")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/SihagBots")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 60)) # Add time in seconds 
+DELETE_TIME = int(environ.get('DELETE_TIME', 600)) # Add time in seconds 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language 
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
@@ -91,7 +91,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "yamlinks.com")
 SHORTLINK_API = environ.get("SHORTLINK_API", "1887995a0aa2b46737105b5f837cff3dc56010f3")
-VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 28800)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 STICKERS_IDS = (
@@ -106,7 +106,7 @@ AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
-LINK_MODE = is_enabled("LINK_MODE", True)
+LINK_MODE = is_enabled("LINK_MODE", False)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IMDB = is_enabled('IMDB', True)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
