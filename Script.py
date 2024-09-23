@@ -1,16 +1,16 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+ɪ ᴀᴍ 𝙼𝚛 𝙸𝚛օ𝚗𝙼𝚊𝚗 ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: RK Bots
-★ Username: @Rk_botowner
-★ Update Channel : @Rkbotz"""
+    MY_OWNER_TXT = """★ Name: Sihag Bots
+★ Username: @VBKGuru
+★ Update Channel : @SihagBots"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -20,16 +20,19 @@ class script(object):
 🚀 Bot Uptime: <code>{}</code>"""
 
     NEW_GROUP_TXT = """#NewGroup
+@MrIronManRoBot
 Title - {}
 ID - <code>{}</code>
 Username - {}
 Total - <code>{}</code>"""
 
     NEW_USER_TXT = """#NewUser
+@MrIronManRoBot
 ★ Name: {}
 ★ ID: <code>{}</code>"""
 
     NO_RESULT_TXT = """#NoResult
+@MrIronManRoBot
 ★ Group Name: {}
 ★ Group ID: <code>{}</code>
 ★ Name: {}
@@ -89,7 +92,7 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<i>{file_name}</i>
+    FILE_CAPTION = """<i> @SihagBots {file_name}</i>
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
@@ -138,6 +141,6 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/Rishikesh-Sharma09/Auto-Filter-Bot>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/SihagBots >ʜᴇʀᴇ</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @Rkbotz"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - @VBKGuru"""
